@@ -6,8 +6,10 @@ package com.example.lloydfinch.studytest;
 
 public class SingleInstance {
 
+    //成员私有化
     private static SingleInstance instance;
 
+    //构造方法私有化使得只能通过getInstance()获取
     private SingleInstance() {
 
     }
@@ -24,5 +26,4 @@ public class SingleInstance {
 
         return instance;
     }
-
 }
