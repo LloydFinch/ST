@@ -16,8 +16,16 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         button = (Button) this.findViewById(R.id.button_click);
-        button.setOnClickListener((v)->{
-            Toast.makeText(this,"this is lambda expression",Toast.LENGTH_LONG).show();
+        button.setOnClickListener((v) -> {
+            Toast.makeText(this, "this is lambda expression", Toast.LENGTH_LONG).show();
         });
+    }
+
+    private void testLoader() {
+
+    }
+
+    private void testSqLite() {
+
     }
 }
